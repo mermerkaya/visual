@@ -76,6 +76,7 @@ export interface TableState extends BaseVisualizationState {
   hoverRow?: Datum;
 }
 
+demo
 
 export class Table extends BaseVisualization<TableState> {
   public static id = TABLE_MANIFEST.name;
